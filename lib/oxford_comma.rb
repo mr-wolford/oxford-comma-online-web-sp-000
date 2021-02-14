@@ -5,7 +5,6 @@ def oxford_comma(array)
     array.each do |comma|
       comma << ","
     end
-    binding.pry
   end
   array.join(" and ")
 end
