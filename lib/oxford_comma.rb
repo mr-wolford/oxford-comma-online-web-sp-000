@@ -1,4 +1,3 @@
-require 'pry'
 
 def oxford_comma(array)
   if array.count > 2
@@ -9,5 +8,3 @@ def oxford_comma(array)
   array.join(" and ")
 end
 
-binding.pry
-puts "Hello?"
